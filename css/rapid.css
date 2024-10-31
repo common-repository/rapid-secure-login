@@ -1,0 +1,67 @@
+.rpsl_qr_img {
+	opacity		: 0.85;
+	min-height	: 164px;
+}
+
+.rpsl_qr_div {
+	text-align	: center;
+	width		: 300px;
+}
+
+/* marked as important, as theme stylesheet applied after this file */
+.rpsl_qr_div a, .rpsl_qr_div img {
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+.rpsl_qr_backend_div {
+	text-align:center;
+}
+
+.rpsl_logo_img_click {
+	cursor   : pointer;
+	cursor   : hand;
+}
+
+.rpsl_login_error {
+	color:red;
+}
+
+.rpsl_outer_div img {
+	display:inline;
+}
+
+.rpsl_qr_message {
+	font-weight: bold;
+}
+
+.rpsl_spinner {
+	display			: table-cell;
+	vertical-align	: middle;
+	text-align		: center;
+	position		: absolute;
+	width			: 274px;
+}
+
+.rpsl_be_spinner {
+	display			: table-cell;
+	vertical-align	: middle;
+	text-align		: center;
+	position		: absolute;
+	width			: 160px;
+	left			: 2px;
+}
+
+.rpsl_de_td {
+	text-align      : left;
+}
+
+.rpsl_de_tx {
+	width           : 100%;
+}
+
+.rpsl_de_pick {
+	width           : 100%;
+}
+
